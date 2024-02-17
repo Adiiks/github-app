@@ -23,8 +23,8 @@ mvn spring-boot:run
 
 #### Pobierz wszystkie repozytoria użytkownika
 
-```http
-  GET http://localhost:8080/api/repositories?username={USERNAME}
+```
+GET http://localhost:8080/api/repositories?username={USERNAME}
 ```
 
 | Parametr | Typ     | Opis                |
